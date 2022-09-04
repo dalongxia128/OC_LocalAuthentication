@@ -1,0 +1,18 @@
+public_param_num 6
+net_param_num 2
+
+netnum 3
+stride 4.0
+cellsize 8
+have_keypnt 1
+have_angle 1
+have_mask 1
+
+net1_threshold 0.593
+net1_batchsize 1024
+
+net2_threshold 0.365
+net2_batchsize 1024
+
+net3_threshold 0.95
+net3_batchsize 1024

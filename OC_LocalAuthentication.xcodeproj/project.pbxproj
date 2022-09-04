@@ -14,6 +14,9 @@
 		8622525927F58C07006D195D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8622525727F58C07006D195D /* LaunchScreen.storyboard */; };
 		8622525C27F58C07006D195D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8622525B27F58C07006D195D /* main.m */; };
 		8622526427F58D8A006D195D /* NSObject+LocalAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8622526227F58D8A006D195D /* NSObject+LocalAuthentication.m */; };
+		86AE8B0A28C4754600523D48 /* CWResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86AE8AE528C4754600523D48 /* CWResource.bundle */; };
+		86AE8B0B28C4754600523D48 /* libFaceAntiSpoofing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE8AE728C4754600523D48 /* libFaceAntiSpoofing.a */; };
+		86AE8B0C28C4754600523D48 /* libDeepNetV2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE8B0928C4754600523D48 /* libDeepNetV2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,41 @@
 		8622525B27F58C07006D195D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8622526227F58D8A006D195D /* NSObject+LocalAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LocalAuthentication.m"; sourceTree = "<group>"; };
 		8622526327F58D8A006D195D /* NSObject+LocalAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LocalAuthentication.h"; sourceTree = "<group>"; };
+		86AE8AE528C4754600523D48 /* CWResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CWResource.bundle; sourceTree = "<group>"; };
+		86AE8AE728C4754600523D48 /* libFaceAntiSpoofing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFaceAntiSpoofing.a; sourceTree = "<group>"; };
+		86AE8AE928C4754600523D48 /* CWLivessFinishedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessFinishedView.h; sourceTree = "<group>"; };
+		86AE8AEA28C4754600523D48 /* CWProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWProgressView.h; sourceTree = "<group>"; };
+		86AE8AEB28C4754600523D48 /* CWResponseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWResponseUtil.h; sourceTree = "<group>"; };
+		86AE8AEC28C4754600523D48 /* CWErrorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWErrorUtil.h; sourceTree = "<group>"; };
+		86AE8AED28C4754600523D48 /* CWURLParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWURLParam.h; sourceTree = "<group>"; };
+		86AE8AEE28C4754600523D48 /* CloudwalkSampleFaceDetectResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudwalkSampleFaceDetectResultModel.h; sourceTree = "<group>"; };
+		86AE8AEF28C4754600523D48 /* CWLivessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessInfo.h; sourceTree = "<group>"; };
+		86AE8AF028C4754600523D48 /* CloudwalkFaceSDKDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudwalkFaceSDKDef.h; sourceTree = "<group>"; };
+		86AE8AF128C4754600523D48 /* CWDataProcessUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWDataProcessUtil.h; sourceTree = "<group>"; };
+		86AE8AF228C4754600523D48 /* CWNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWNavigationBar.h; sourceTree = "<group>"; };
+		86AE8AF328C4754600523D48 /* CWLivessActionAnimationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessActionAnimationViewCell.h; sourceTree = "<group>"; };
+		86AE8AF428C4754600523D48 /* CWLivessCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessCameraView.h; sourceTree = "<group>"; };
+		86AE8AF528C4754600523D48 /* CWAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAudioPlayer.h; sourceTree = "<group>"; };
+		86AE8AF628C4754600523D48 /* CWLivessViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessViewControllerDelegate.h; sourceTree = "<group>"; };
+		86AE8AF728C4754600523D48 /* CWLivessSubViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessSubViewManager.h; sourceTree = "<group>"; };
+		86AE8AF828C4754600523D48 /* CWLanguageConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLanguageConfig.h; sourceTree = "<group>"; };
+		86AE8AF928C4754600523D48 /* CloudwalkFaceSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudwalkFaceSDK.h; sourceTree = "<group>"; };
+		86AE8AFA28C4754600523D48 /* CWCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCommonUtils.h; sourceTree = "<group>"; };
+		86AE8AFB28C4754600523D48 /* CWNormalMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWNormalMacroDefine.h; sourceTree = "<group>"; };
+		86AE8AFC28C4754600523D48 /* CWLivessViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessViewManager.h; sourceTree = "<group>"; };
+		86AE8AFD28C4754600523D48 /* CWHackerCheckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHackerCheckView.h; sourceTree = "<group>"; };
+		86AE8AFE28C4754600523D48 /* CWMBProgressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMBProgressHud.h; sourceTree = "<group>"; };
+		86AE8AFF28C4754600523D48 /* NSBundle+CWLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CWLocalization.h"; sourceTree = "<group>"; };
+		86AE8B0028C4754600523D48 /* UIImage+CWUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CWUtil.h"; sourceTree = "<group>"; };
+		86AE8B0128C4754600523D48 /* CWGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWGuideView.h; sourceTree = "<group>"; };
+		86AE8B0228C4754600523D48 /* CWGradientLayerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWGradientLayerUtil.h; sourceTree = "<group>"; };
+		86AE8B0328C4754600523D48 /* CWCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCamera.h; sourceTree = "<group>"; };
+		86AE8B0428C4754600523D48 /* CWDeviceStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWDeviceStatusManager.h; sourceTree = "<group>"; };
+		86AE8B0528C4754600523D48 /* CWURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWURLRequest.h; sourceTree = "<group>"; };
+		86AE8B0628C4754600523D48 /* CWLivessTimeoutAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessTimeoutAlert.h; sourceTree = "<group>"; };
+		86AE8B0728C4754600523D48 /* CWLivessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessViewController.h; sourceTree = "<group>"; };
+		86AE8B0828C4754600523D48 /* CWLivessActionAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLivessActionAnimationView.h; sourceTree = "<group>"; };
+		86AE8B0928C4754600523D48 /* libDeepNetV2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDeepNetV2.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AE8B0B28C4754600523D48 /* libFaceAntiSpoofing.a in Frameworks */,
+				86AE8B0C28C4754600523D48 /* libDeepNetV2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +101,7 @@
 		8622524827F58C04006D195D /* OC_LocalAuthentication */ = {
 			isa = PBXGroup;
 			children = (
+				86AE8AE328C4752D00523D48 /* Third */,
 				8622524927F58C04006D195D /* AppDelegate.h */,
 				8622524A27F58C04006D195D /* AppDelegate.m */,
 				8622524F27F58C04006D195D /* ViewController.h */,
@@ -74,6 +115,72 @@
 				8622525B27F58C07006D195D /* main.m */,
 			);
 			path = OC_LocalAuthentication;
+			sourceTree = "<group>";
+		};
+		86AE8AE328C4752D00523D48 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				86AE8AE428C4754600523D48 /* CWResources */,
+				86AE8AE628C4754600523D48 /* libs */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		86AE8AE428C4754600523D48 /* CWResources */ = {
+			isa = PBXGroup;
+			children = (
+				86AE8AE528C4754600523D48 /* CWResource.bundle */,
+			);
+			path = CWResources;
+			sourceTree = "<group>";
+		};
+		86AE8AE628C4754600523D48 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				86AE8AE728C4754600523D48 /* libFaceAntiSpoofing.a */,
+				86AE8AE828C4754600523D48 /* include */,
+				86AE8B0928C4754600523D48 /* libDeepNetV2.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		86AE8AE828C4754600523D48 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				86AE8AE928C4754600523D48 /* CWLivessFinishedView.h */,
+				86AE8AEA28C4754600523D48 /* CWProgressView.h */,
+				86AE8AEB28C4754600523D48 /* CWResponseUtil.h */,
+				86AE8AEC28C4754600523D48 /* CWErrorUtil.h */,
+				86AE8AED28C4754600523D48 /* CWURLParam.h */,
+				86AE8AEE28C4754600523D48 /* CloudwalkSampleFaceDetectResultModel.h */,
+				86AE8AEF28C4754600523D48 /* CWLivessInfo.h */,
+				86AE8AF028C4754600523D48 /* CloudwalkFaceSDKDef.h */,
+				86AE8AF128C4754600523D48 /* CWDataProcessUtil.h */,
+				86AE8AF228C4754600523D48 /* CWNavigationBar.h */,
+				86AE8AF328C4754600523D48 /* CWLivessActionAnimationViewCell.h */,
+				86AE8AF428C4754600523D48 /* CWLivessCameraView.h */,
+				86AE8AF528C4754600523D48 /* CWAudioPlayer.h */,
+				86AE8AF628C4754600523D48 /* CWLivessViewControllerDelegate.h */,
+				86AE8AF728C4754600523D48 /* CWLivessSubViewManager.h */,
+				86AE8AF828C4754600523D48 /* CWLanguageConfig.h */,
+				86AE8AF928C4754600523D48 /* CloudwalkFaceSDK.h */,
+				86AE8AFA28C4754600523D48 /* CWCommonUtils.h */,
+				86AE8AFB28C4754600523D48 /* CWNormalMacroDefine.h */,
+				86AE8AFC28C4754600523D48 /* CWLivessViewManager.h */,
+				86AE8AFD28C4754600523D48 /* CWHackerCheckView.h */,
+				86AE8AFE28C4754600523D48 /* CWMBProgressHud.h */,
+				86AE8AFF28C4754600523D48 /* NSBundle+CWLocalization.h */,
+				86AE8B0028C4754600523D48 /* UIImage+CWUtil.h */,
+				86AE8B0128C4754600523D48 /* CWGuideView.h */,
+				86AE8B0228C4754600523D48 /* CWGradientLayerUtil.h */,
+				86AE8B0328C4754600523D48 /* CWCamera.h */,
+				86AE8B0428C4754600523D48 /* CWDeviceStatusManager.h */,
+				86AE8B0528C4754600523D48 /* CWURLRequest.h */,
+				86AE8B0628C4754600523D48 /* CWLivessTimeoutAlert.h */,
+				86AE8B0728C4754600523D48 /* CWLivessViewController.h */,
+				86AE8B0828C4754600523D48 /* CWLivessActionAnimationView.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +243,7 @@
 				8622525927F58C07006D195D /* LaunchScreen.storyboard in Resources */,
 				8622525627F58C07006D195D /* Assets.xcassets in Resources */,
 				8622525427F58C04006D195D /* Main.storyboard in Resources */,
+				86AE8B0A28C4754600523D48 /* CWResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
